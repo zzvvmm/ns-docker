@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS nongsan_dev;
+CREATE DATABASE IF NOT EXISTS nongsan_test;
+USE nongsan_dev;
