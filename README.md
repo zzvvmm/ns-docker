@@ -40,11 +40,24 @@ docker ps
 ```
 2. Access to php server:
 ```sh
+docker-compose exec ns-web-server bash
+```
+or
+```
 docker exec -it $web-server-container-id bash
 ```
 3. Access to mysql:
 ```sh
+docker-compose exec ns-mysql-server mysql -u root -p
+```
+or
+```
 docker exec -it $mysql-container-id mysql -u root -p
 ```
 - `$web-server-container-id` and `$mysql-container-id` can be found in section 1 (by `docker ps` command)
 - mysql user/password: `root/secret`
+
+## Dev/debug/test kit (recommended by Duc)
+- VisualCode + extensions (ESLint, Laravel Blade Snippets...)
+- Chrome + extentions (Chrome DevTools + React Developer Tools, Window Resizer...)
+- Postman (for API testing)
