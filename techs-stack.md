@@ -1,17 +1,17 @@
 ## Laravel
-MVC (View k quan trọng)
-Route, API route
-Laravel passport
-Migrations
+- MVC (View k quan trọng)
+- Route, API route
+- Laravel passport
+- Migrations
 
 ## Reactjs/Nextjs
-React Hook
-Props, State
-[Redux]( https://viblo.asia/p/redux-cho-nguoi-moi-bat-dau-part-1-introduction-ZjleaBBZkqJ)/[Redux Hooks](https://techmaster.vn/posts/36390/react-redux-hooks-useselector-va-usedispatch-nguoi-ke-nhiem-thay-doi-moi-thu-phuc-tap-cua-dan-anh-connect)
-NodeJS cơ bản
-yarn/npm cơ bản (khuyến khích yarn)
-ES6
-Typescript
+- React Hook
+- Props, State
+- [Redux]( https://viblo.asia/p/redux-cho-nguoi-moi-bat-dau-part-1-introduction-ZjleaBBZkqJ)/[Redux Hooks](https://techmaster.vn/posts/36390/react-redux-hooks-useselector-va-usedispatch-nguoi-ke-nhiem-thay-doi-moi-thu-phuc-tap-cua-dan-anh-connect)
+- NodeJS cơ bản
+- yarn/npm cơ bản (khuyến khích yarn)
+- ES6
+- Typescript
 
 ## Hệ thống
   - Web server (ví dụ apache)
