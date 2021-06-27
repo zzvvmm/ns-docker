@@ -43,7 +43,7 @@
        - Nodejs v16.4.0
 
        ```bash
-      nvm install v16.4.0
+         nvm install v16.4.0
     ```
 
     -   Yarn: Quản lý packages/dependencies cho node (thay cho npm)
@@ -63,6 +63,7 @@
        pm2 start // chạy next background = pm2
 
        pm2 startup // tự khởi động pm2 lúc server boot
+       ** sau khi chạy pm2 startup sẽ trả về 1 script. paste script đó vào terminal/bash để reg pm2 vào systemd services **
 
        pm2 save // lưu tiến trình đang chạy = pm2 vào danh sách tự khởi động lúc server boot
     ```
