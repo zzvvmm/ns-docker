@@ -49,7 +49,7 @@
     -   Yarn: Quản lý packages/dependencies cho node (thay cho npm)
     
       ```bash
-         npm install -g yarn
+        npm install -g yarn
     ```
 
      -   [PM2](https://pm2.keymetrics.io/): Quản lý process
