@@ -60,6 +60,7 @@ docker exec -it $mysql-container-id mysql -u root -p
 ## Dev/debug/test kit (recommended by Duc)
 - VisualCode + extensions (ESLint, Laravel Blade Snippets...)
   - Tab size: 2
+    ![image](https://user-images.githubusercontent.com/26274752/125073266-e3dd5d00-e0e5-11eb-809f-682b5ce48cdc.png)
   - Auto insert final newline (VSCode: Preferences -> Settings -> search insert final newline -> tick vào)
     ![image](https://user-images.githubusercontent.com/26274752/125071804-fa82b480-e0e3-11eb-98d9-24c6ab10dd9b.png)  
 
