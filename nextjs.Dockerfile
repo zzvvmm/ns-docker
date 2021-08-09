@@ -11,10 +11,10 @@ COPY package*.json /usr/src/app/
 RUN yarn install
 
 # Copying source files
-COPY . /usr/src/app
+COPY . /usr/src/app 
 
 # Building app
-RUN yarn build
+# RUN yarn build
 EXPOSE 3000
 
 # Running the app

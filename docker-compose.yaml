@@ -1,4 +1,4 @@
-version: "3.7"
+version: '3.7'
 services:
   ns-web-server:
     build:
@@ -30,16 +30,16 @@ services:
       PMA_PASSWORD: secret
     ports:
       - 5002:80
-  ns-nextjs:
-    ports:
-      - 3002:3000
-    build:
-      context: ../ns-nextjs
-      dockerfile: ../ns-docker/nextjs.Dockerfile
-    volumes:
-      - ../ns-nextjs:/usr/src/app
-      - /usr/src/app/node_modules
-      - /usr/src/app/.next
+  # ns-nextjs:
+  #   ports:
+  #     - 3002:3000
+  #   build:
+  #     context: ../ns-nextjs
+  #     dockerfile: ../ns-docker/nextjs.Dockerfile
+  #   volumes:
+  #     - ../ns-nextjs:/usr/src/app
+  #     - /usr/src/app/node_modules
+  #     - /usr/src/app/.next
 
 volumes:
   mysql-data:
